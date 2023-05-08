@@ -1,5 +1,5 @@
 {
-    "name": "asgrim/ofxparser",
+    "name": "franciscoalex2407/ofxparser",
     "description": "Simple OFX file parser",
     "keywords": ["ofx", "open financial exchange", "finance", "parser"],
     "license": "MIT",
@@ -17,6 +17,10 @@
         {
             "name": "Oliver Lowe",
             "email": "mrtriangle@gmail.com"
+        },
+        {
+            "name": "Francisco Alex",
+            "email": "franciscoalex2407@gmail.com"
         }
     ],
     "require": {
