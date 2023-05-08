@@ -129,7 +129,8 @@ class Parser
             $line,
             $matches
         )) {
-            return "<{$matches[1]}>{$matches[2]}</{$matches[1]}>";
+            $value = htmlspecialchars($matches[2]);
+            return "<{$matches[1]}>{$value}</{$matches[1]}>";
         }
         return $line;
     }
